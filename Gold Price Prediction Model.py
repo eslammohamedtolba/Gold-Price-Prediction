@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 
 
 # uploading gold price dataset
-gold_price_dataset = pd.read_csv("/content/gld_price_data.csv")
+gold_price_dataset = pd.read_csv("gld_price_data.csv")
 # show the dataset
 gold_price_dataset.head()
 # # show dataset shape
